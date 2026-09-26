@@ -231,7 +231,7 @@ window.EDIT = {
       ],
       move: "Character over results. Leagues started cutting their own personality-driven stories, then let fans cut the rest.",
       media: [
-        { type: "youtube", id: "9lP95Qo-I0", caption: "The GOAT greatest dunks" }
+        { type: "youtube", id: "-9lP95Qo-I0", caption: "The GOAT greatest dunks" }
       ] },
 
     { id: "tiktok", name: "TikTok and CapCut", era: "2018", yr: 2018, y: 560, kind: "platform",
