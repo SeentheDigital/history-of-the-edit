@@ -243,7 +243,7 @@
   /* ---------- tapes: real clips inside the panel ---------- */
   function stopTape(silent) {
     const art = panel.querySelector(".p-art");
-    if (art) { art.classList.remove("screen", "listen"); const sc = art.querySelector(".p-screen"); if (sc) sc.innerHTML = ""; }
+    if (art) { art.classList.remove("screen", "listen", "tall"); const sc = art.querySelector(".p-screen"); if (sc) sc.innerHTML = ""; }
     panel.querySelectorAll(".tape.on").forEach(t => t.classList.remove("on"));
     if (AUDIO) AUDIO.duck(false);
   }
@@ -276,6 +276,21 @@
         msg.textContent = "Couldn't play " + m.src + ". Check the file name and that it's in the audio folder (.mp3, .wav, .ogg or .m4a).";
         sc.insertBefore(msg, sc.firstChild);
       });
+    } else if (m.type === "embed") {
+      el = document.createElement("iframe");
+      el.src = m.url;
+      el.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      el.allowFullscreen = true;
+      el.title = m.caption || n.name;
+      if (AUDIO) AUDIO.duck(true);
+    } else if (m.type === "tiktok") {
+      el = document.createElement("iframe");
+      el.src = "https://www.tiktok.com/player/v1/" + encodeURIComponent(m.id);
+      el.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      el.allowFullscreen = true;
+      el.title = m.caption || n.name;
+      art.classList.add("tall");
+      if (AUDIO) AUDIO.duck(true);
     } else if (m.type === "image") {
       el = document.createElement("img");
       el.src = m.src; el.alt = m.caption || n.name;

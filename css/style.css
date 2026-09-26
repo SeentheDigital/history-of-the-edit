@@ -301,3 +301,7 @@ button{font:inherit;color:inherit}
 .p-art.listen .tape-err{padding:6px 10px;color:var(--ink);background:var(--bg-2);border-radius:4px}
 @media (max-width:760px){ .hero-foot>div{align-items:stretch} .hero-sound{text-align:left} }
 @media (prefers-reduced-motion:reduce){ .p-art.listen svg{animation:none} #hero.run .hero-sound{animation:none;opacity:1} }
+
+/* tall monitor for vertical TikTok tapes */
+.p-art.screen.tall{aspect-ratio:auto;height:min(620px,78vh)}
+.p-art.screen.tall .p-screen iframe{max-width:340px;margin:0 auto}

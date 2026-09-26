@@ -83,7 +83,7 @@ window.EDIT = {
     { id: "soviet", name: "Soviet montage", era: "1920s", yr: 1925, y: 330, kind: "industry",
       text: [
         "In the years after the 1917 revolution, a group of young Soviet filmmakers set out to discover what cinema could do that no other art could. Their answer was montage: the idea that a film's meaning lives in the cut between shots, not inside any single shot. Film stock was scarce, so they studied existing footage obsessively, taking films apart and reassembling them to see what changed.",
-        "Lev Kuleshov's famous experiment spliced the same neutral close-up of an actor against different images, usually described as a bowl of soup, a child in a coffin and a woman on a divan. Audiences reportedly praised the actor's subtle shifts between hunger, grief and desire, though his face never changed. Sergei Eisenstein pushed further, treating cuts as collisions meant to jolt the viewer, most famously in the Odessa Steps sequence of <i>Battleship Potemkin</i> (1925). Dziga Vertov's <i>Man with a Movie Camera</i> (1929) made the editing itself the star.",
+        "Lev Kuleshov's famous experiment spliced the same neutral close-up of an actor against different images, usually described as a bowl of soup, a child in a coffin and a woman on a divan. Audiences reportedly praised the actor's subtle shifts between hunger, grief and desire, though his face never changed. Sergei Eisenstein pushed further, treating cuts as collisions meant to jolt the viewer, most famously in the Odessa Steps sequences of <i>Battleship Potemkin</i> (1925). Dziga Vertov's <i>Man with a Movie Camera</i> (1929) made the editing itself the star.",
         "Almost every technique in a modern edit descends from these arguments. A stare becomes menacing because of what's cut next to it, and a montage builds pressure through accelerating rhythm. The lineage runs all the way to <i>Rocky IV</i>, a film about beating a Soviet boxer that runs on Soviet film theory."
       ],
       move: "Collision. Two images placed side by side create a third meaning that neither holds alone. Any edit that makes a stare look menacing because of what comes next is running on this idea.",
@@ -121,7 +121,7 @@ window.EDIT = {
       ],
       move: "The song as a lens. Gather every glance or every injury into one sequence and the pattern becomes impossible to unsee.",
       media: [
-        { type: "video",   src: "media/WomensWork106MB.mp4", caption: "Bloody, misogynistic and harrowing underside of Supernatural" }
+        { type: "embed", url: "https://archive.org/embed/WomensWork106MB", caption: "Bloody, misogynistic and harrowing underside of Supernatural" }
       ] },
 
     { id: "mtv", name: "Music television", era: "1981", yr: 1981, y: 250, kind: "industry",
@@ -132,7 +132,7 @@ window.EDIT = {
       ],
       move: "Cutting on the beat. The rhythm of the song decides when the picture changes.",
       media: [
-        { type: "youtube", id: "T6uNI0SLMds", caption: "Arguable where many of these styles and format really began" }
+        { type: "youtube", id: "T6uNI0SLMds", caption: "Arguably, where many of these styles and formats really began" }
       ] },
 
     { id: "amv", name: "AMVs and MADs", era: "1980s", yr: 1983, y: 650, kind: "fan",
@@ -220,7 +220,7 @@ window.EDIT = {
       ],
       move: "Argument by juxtaposition. Two clips side by side prove a point faster than a paragraph.",
       media: [
-        { type: "youtube",   id: "K870Gbh8AQM", caption: "A critical look on critical media literacy" },
+        { type: "youtube",   id: "K870Gbh8AQM", caption: "A critical look at critical media literacy" },
         { type: "youtube",   id: "d8reiauyQCM", caption: "They do be like that" }
       ] },
 
@@ -232,7 +232,7 @@ window.EDIT = {
       ],
       move: "Character over results. Leagues started cutting their own personality-driven stories, then let fans cut the rest.",
       media: [
-        { type: "youtube", id: "GWshHUF05DM", caption: "The GOAT greatest clutches" }
+        { type: "youtube", id: "GWshHUF05DM", caption: "The GOAT clutches like he always does" }
       ] },
 
     { id: "tiktok", name: "TikTok and CapCut", era: "2018", yr: 2018, y: 560, kind: "platform",
@@ -243,10 +243,9 @@ window.EDIT = {
       ],
       move: "The template. One sound and one structure, endlessly refilled with new footage.",
       media: [
-        { type: "video",   src: "media/tiktokcore.mp4", caption: "The ultimate short form video platform" },
-        { type: "video",   src: "media/doomsdale.mp4", caption: "Never tell the world your dreams" }
+        { type: "tiktok",   id: "7624591636659522837", caption: "The ultimate short form video platform" },
+        { type: "video",   src: "media/doomsdale.mp4", caption: "Never tell the world your dreams | credits: @swift_6k on Tiktok" }
       ] },
-
     { id: "aura", name: "Aura edits", era: "2020s", yr: 2022, y: 380, kind: "output",
       text: [
         "“Aura” became mainstream internet slang around 2023 and 2024, describing a presence of effortless, unbothered dominance. The slang treats it like a currency: a clutch shot earns aura, an embarrassment costs it, and “aura farming” means deliberately cultivating it. In 2025, a boy dancing with total calm at the prow of a racing boat during Pacu Jalur, a traditional boat race in Riau, Indonesia, made aura farming a global phrase.",
@@ -255,7 +254,8 @@ window.EDIT = {
       ],
       move: "The pause before the drop. Everything slows, then the beat hits on the moment of total control.",
       media: [
-        { type: "video",   src: "media/f1aura.mp4", caption: "The coolest and baddest mfs you've ever seen" }
+        { type: "video",   src: "media/f1aura.mp4", caption: "The coolest and baddest mfs you've seen on the circuit | credits: @not_tusky on Tiktok" },
+        { type: "tiktok",   id: "7611315204286106898", caption: "Eileen Gu skiing effortlessly like a smooth operator" }
       ] },
 
     { id: "stan", name: "Stan edits", era: "2020s", yr: 2022, y: 760, kind: "output",
@@ -266,8 +266,8 @@ window.EDIT = {
       ],
       move: "Chemistry. A glance, a hug at the net, a shared joke, cut together until the relationship becomes the story.",
       media: [
-        { type: "video",   src: "media/sincaraz.mp4", caption: "A heated rivalry that created one of the greatest Tennis matches of all time" },
-        { type: "video",   src: "media/mbappekpop.mp4", caption: "Mbappe oppa and Taeoyeon unnie hitting their aegyos" }
+        { type: "video",   src: "media/sincaraz.mp4", caption: "A heated rivalry that created one of the greatest Tennis matches of all time | credits: @rvdorya on Tiktok" },
+        { type: "video",   src: "media/mbappekpop.mp4", caption: "Mbappe oppa and Taeyeon unnie hitting their aegyos | credits: @1ondoncowboy on Tiktok" }
       ] },
 
     { id: "uma", name: "Umamusume edits", era: "2025", yr: 2025, y: 570, kind: "output",
@@ -278,8 +278,8 @@ window.EDIT = {
       ],
       move: "The juxtaposition. Real footage and fiction side by side, so the history hits harder than either alone.",
       media: [
-        { type: "video",   src: "media/umaedit.mp4", caption: "Tribute to the greats, in real life and fiction" },
-        { type: "video",   src: "media/digitan.mp4", caption: "The loveable pervert yuri lover's devotion to her beloved umamusumes" }
+        { type: "video",   src: "media/umaedit.mp4", caption: "Tribute to the greats, in real life and fiction | credits: @exenoeditz on Tiktok" },
+        { type: "video",   src: "media/digitan.mp4", caption: "The loveable pervert yuri lover's devotion to her beloved umamusumes | @hashireharu on Tiktok" }
       ] }
 
   ],
