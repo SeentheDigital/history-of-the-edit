@@ -1,0 +1,2 @@
+Put your video clips (.mp4 or .webm) and images (.jpg, .png, .gif, .webp) here,
+then list them in the "media" field of a clip in js/data.js. See README.md.

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The history of the edit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <section id="hero" class="run" aria-labelledby="hero-title">
+    <div class="osd" aria-hidden="true">
+      <span>&#9654; PLAY <span class="fmt">&nbsp;SP</span></span>
+      <span id="tc">00:00:00:00</span>
+      <span class="rec"><i></i>REC</span>
+    </div>
+    <div class="bars-wrap" aria-hidden="true">
+      <div class="bars">
+        <span style="background:#c0c0c0"></span><span style="background:#c0c000"></span><span style="background:#00c0c0"></span>
+        <span style="background:#00c000"></span><span style="background:#c000c0"></span><span style="background:#c00000"></span>
+        <span style="background:#0000c0"></span>
+      </div>
+      <div class="bars-low">
+        <span style="background:#0000c0"></span><span style="background:#141414"></span><span style="background:#c000c0"></span>
+        <span style="background:#141414"></span><span style="background:#00c0c0"></span><span style="background:#141414"></span>
+        <span style="background:#c0c0c0"></span>
+      </div>
+    </div>
+    <h1 class="title" id="hero-title"><span>the history</span><span>of the edit</span></h1>
+    <div class="hero-foot">
+      <p class="hero-lede"></p>
+      <div>
+        <button class="play" id="playBtn" type="button"><span class="tri" aria-hidden="true"></span>Press play</button>
+        <button type="button" class="hero-sound" id="heroSound" aria-pressed="true">&#9834; Click anywhere for sound</button>
+      </div>
+    </div>
+    <div class="hero-ruler" aria-hidden="true">
+      <b style="left:0">1920</b><b style="left:20%">1950</b><b style="left:40%">1975</b><b style="left:60%">1995</b><b style="left:80%">2010</b>
+      <i class="ph"></i>
+    </div>
+  </section>
+
+  <section id="stage" aria-label="Network map of the history of the edit">
+    <div id="viewport">
+      <div id="world">
+        <svg id="edges" aria-hidden="true"></svg>
+      </div>
+    </div>
+
+    <header class="hud">
+      <button class="brand" id="brand" type="button">the history of the edit<small>&#9664;&#9664; rewind to the intro</small></button>
+      <div class="hud-right">
+        <div class="legend" aria-label="Legend"></div>
+        <div class="tools">
+          <button type="button" class="sound" id="soundBtn" aria-pressed="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="wave" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="mute" d="M17 9.5l5 5M22 9.5l-5 5"/></svg>
+            <span class="lbl">Sound on</span>
+          </button>
+          <button type="button" id="zoomOut" aria-label="Zoom out">&minus;</button>
+          <button type="button" id="zoomIn" aria-label="Zoom in">+</button>
+          <button type="button" id="fitBtn">Whole map</button>
+        </div>
+      </div>
+    </header>
+
+    <p class="hint" id="hint">Drag to pan, scroll or pinch to zoom, pick a clip to open it.</p>
+
+    <nav id="scrub" aria-label="Timeline of all clips"><div class="scrub-in" id="scrubIn"><i class="scrub-ph" id="scrubPh"></i></div></nav>
+
+    <aside id="panel" aria-live="polite" aria-hidden="true"></aside>
+  </section>
+
+  <div id="tracking" aria-hidden="true">
+    <b style="top:12%;height:5%"></b><b style="top:38%;height:3%"></b><b style="top:57%;height:9%"></b><b style="top:83%;height:4%"></b>
+  </div>
+</div>
+
+<!-- Load order matters: data and icons first, then audio, then the app. -->
+<script src="js/data.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
