@@ -305,3 +305,12 @@ button{font:inherit;color:inherit}
 /* tall monitor for vertical TikTok tapes */
 .p-art.screen.tall{aspect-ratio:auto;height:min(620px,78vh)}
 .p-art.screen.tall .p-screen iframe{max-width:340px;margin:0 auto}
+
+/* deck bar: keep the PLAY label and Eject above the video,
+   so they don't cover YouTube's, TikTok's or the Archive's own controls */
+.p-art.screen{display:block;aspect-ratio:auto;height:auto;padding-top:34px}
+.p-art.screen .p-screen{position:relative;inset:auto;aspect-ratio:16/9}
+.p-art.screen.tall{height:auto}
+.p-art.screen.tall .p-screen{aspect-ratio:auto;height:min(620px,78vh)}
+.p-art.screen .tape-eject{top:-29px;right:8px}
+.p-art.screen::before{top:7px}

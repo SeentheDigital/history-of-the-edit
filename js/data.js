@@ -279,7 +279,7 @@ window.EDIT = {
       move: "The juxtaposition. Real footage and fiction side by side, so the history hits harder than either alone.",
       media: [
         { type: "video",   src: "media/umaedit.mp4", caption: "Tribute to the greats, in real life and fiction | credits: @exenoeditz on Tiktok" },
-        { type: "video",   src: "media/digitan.mp4", caption: "The loveable pervert yuri lover's devotion to her beloved umamusumes | @hashireharu on Tiktok" }
+        { type: "video",   src: "media/digitan.mp4", caption: "The loveable pervert yuri lover's devotion to her beloved umamusumes | credits: @hashireharu on Tiktok" }
       ] }
 
   ],
