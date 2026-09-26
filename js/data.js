@@ -120,7 +120,9 @@ window.EDIT = {
         "Vidders also saw their work as criticism. Luminosity and sisabet's <i>Women's Work</i> (2007) gathers the women brutalized in <i>Supernatural</i> while barely showing its heroes, so the pattern becomes impossible to ignore. Luminosity's <i>Vogue</i> (2007), cutting <i>300</i> to Madonna, went viral beyond fandom. Francesca Coppa's <i>Vidding: A History</i> (2022) is the standard account of the form."
       ],
       move: "The song as a lens. Gather every glance or every injury into one sequence and the pattern becomes impossible to unsee.",
-      media: [] },
+      media: [
+        { type: "video",   src: "WomensWork106MB.mp4", caption: "Truest real-fiction" }
+      ] },
 
     { id: "mtv", name: "Music television", era: "1981", yr: 1981, y: 250, kind: "industry",
       text: [
