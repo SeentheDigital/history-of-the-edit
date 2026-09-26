@@ -121,7 +121,7 @@ window.EDIT = {
       ],
       move: "The song as a lens. Gather every glance or every injury into one sequence and the pattern becomes impossible to unsee.",
       media: [
-        { type: "video",   src: "WomensWork106MB.mp4", caption: "Truest real-fiction" }
+        { type: "video",   src: "media/WomensWork106MB.mp4", caption: "Critical unraveling through fanworks" }
       ] },
 
     { id: "mtv", name: "Music television", era: "1981", yr: 1981, y: 250, kind: "industry",
@@ -220,7 +220,7 @@ window.EDIT = {
       ],
       move: "Argument by juxtaposition. Two clips side by side prove a point faster than a paragraph.",
       media: [
-        { type: "image",   src: "videoessays.jpeg", caption: "Proliferation of media literacy" }
+        { type: "image",   src: "media/videoessays.jpeg", caption: "Proliferation of media literacy" }
       ] },
 
     { id: "leagues", name: "Leagues open the footage", era: "2017", yr: 2017, y: 250, kind: "industry",
@@ -242,7 +242,7 @@ window.EDIT = {
       ],
       move: "The template. One sound and one structure, endlessly refilled with new footage.",
       media: [
-        { type: "video",   src: "tiktokcore.mp4", caption: "The ultimate short form video platform" }
+        { type: "video",   src: "media/tiktokcore.mp4", caption: "The ultimate short form video platform" }
       ] },
 
     { id: "aura", name: "Aura edits", era: "2020s", yr: 2022, y: 380, kind: "output",
@@ -253,7 +253,7 @@ window.EDIT = {
       ],
       move: "The pause before the drop. Everything slows, then the beat hits on the moment of total control.",
       media: [
-        { type: "video",   src: "f1aura.mp4", caption: "Tje coolest and baddest mfs you've ever seen" }
+        { type: "video",   src: "media/f1aura.mp4", caption: "Tje coolest and baddest mfs you've ever seen" }
       ] },
 
     { id: "stan", name: "Stan edits", era: "2020s", yr: 2022, y: 760, kind: "output",
@@ -264,7 +264,7 @@ window.EDIT = {
       ],
       move: "Chemistry. A glance, a hug at the net, a shared joke, cut together until the relationship becomes the story.",
       media: [
-        { type: "video",   src: "newjeans.mp4", caption: "Truest real-fiction" }
+        { type: "video",   src: "media/newjeans.mp4", caption: "Truest real-fiction" }
       ] },
 
     { id: "uma", name: "Umamusume edits", era: "2025", yr: 2025, y: 570, kind: "output",
@@ -275,7 +275,7 @@ window.EDIT = {
       ],
       move: "The juxtaposition. Real footage and fiction side by side, so the history hits harder than either alone.",
       media: [
-        { type: "video",   src: "umaedit.mp4", caption: "Truest real-fiction" }
+        { type: "video",   src: "media/umaedit.mp4", caption: "Truest real-fiction" }
       ] }
 
   ],
