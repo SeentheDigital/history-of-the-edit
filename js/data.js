@@ -255,7 +255,7 @@ window.EDIT = {
       ],
       move: "The pause before the drop. Everything slows, then the beat hits on the moment of total control.",
       media: [
-        { type: "video",   src: "media/f1aura.mp4", caption: "Tje coolest and baddest mfs you've ever seen" }
+        { type: "video",   src: "media/f1aura.mp4", caption: "The coolest and baddest mfs you've ever seen" }
       ] },
 
     { id: "stan", name: "Stan edits", era: "2020s", yr: 2022, y: 760, kind: "output",
