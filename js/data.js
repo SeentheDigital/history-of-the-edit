@@ -110,7 +110,7 @@ window.EDIT = {
       ],
       move: "Slow motion, score and voice together. The ball hangs in the air while the music swells, and one play becomes a legend.",
       media: [
-        { type: "youtube", id: "Nh0wTYWOHoU", caption: "Ed Sabol's farewell" }
+        { type: "youtube", id: "Nh0wTYWOHoU", caption: "A farewell to Ed Sabol, who started it all" }
       ] },
 
     { id: "vidding", name: "Fan vidding", era: "1975", yr: 1975, y: 880, kind: "fan",
@@ -121,7 +121,7 @@ window.EDIT = {
       ],
       move: "The song as a lens. Gather every glance or every injury into one sequence and the pattern becomes impossible to unsee.",
       media: [
-        { type: "video",   src: "media/WomensWork106MB.mp4", caption: "Critical unraveling through fanworks" }
+        { type: "video",   src: "media/WomensWork106MB.mp4", caption: "Bloody, misogynistic and harrowing underside of Supernatural" }
       ] },
 
     { id: "mtv", name: "Music television", era: "1981", yr: 1981, y: 250, kind: "industry",
@@ -165,7 +165,7 @@ window.EDIT = {
       ],
       move: "The athlete's voice as dialogue. A spoken line lands on the drop, and the music answers it.",
       media: [
-        { type: "youtube", id: "pfh7S6nTbUw", caption: "The Rock and Stone Cold Steve Austin face-off" }
+        { type: "youtube", id: "pfh7S6nTbUw", caption: "The Rock vs. Stone Cold, WrestleMania X-Seven (2001): the “My Way” package, often called the greatest ever made" }
       ] },
 
     { id: "mixtape", name: "Streetball mixtapes", era: "1998", yr: 1998, y: 780, kind: "fan",
@@ -176,7 +176,7 @@ window.EDIT = {
       ],
       move: "Style over result. The move itself is the highlight, cut to the beat and replayed from every angle.",
       media: [
-        { type: "youtube", id: "LweNdi92DW0", caption: "Stylistic swagger" }
+        { type: "youtube", id: "LweNdi92DW0", caption: "Stylistic swagger montage" }
       ] },
 
     { id: "platforms", name: "YouTube, Nico Nico, Tumblr", era: "2005", yr: 2006, y: 560, kind: "platform",
@@ -220,7 +220,8 @@ window.EDIT = {
       ],
       move: "Argument by juxtaposition. Two clips side by side prove a point faster than a paragraph.",
       media: [
-        { type: "image",   src: "media/videoessays.jpeg", caption: "Proliferation of media literacy" }
+        { type: "youtube",   id: "K870Gbh8AQM", caption: "A critical look on critical media literacy" },
+        { type: "youtube",   id: "d8reiauyQCM", caption: "They do be like that" }
       ] },
 
     { id: "leagues", name: "Leagues open the footage", era: "2017", yr: 2017, y: 250, kind: "industry",
@@ -231,7 +232,7 @@ window.EDIT = {
       ],
       move: "Character over results. Leagues started cutting their own personality-driven stories, then let fans cut the rest.",
       media: [
-        { type: "youtube", id: "-9lP95Qo-I0", caption: "The GOAT greatest dunks" }
+        { type: "youtube", id: "GWshHUF05DM", caption: "The GOAT greatest clutches" }
       ] },
 
     { id: "tiktok", name: "TikTok and CapCut", era: "2018", yr: 2018, y: 560, kind: "platform",
@@ -242,7 +243,8 @@ window.EDIT = {
       ],
       move: "The template. One sound and one structure, endlessly refilled with new footage.",
       media: [
-        { type: "video",   src: "media/tiktokcore.mp4", caption: "The ultimate short form video platform" }
+        { type: "video",   src: "media/tiktokcore.mp4", caption: "The ultimate short form video platform" },
+        { type: "video",   src: "media/doomsdale.mp4", caption: "Never tell the world your dreams" }
       ] },
 
     { id: "aura", name: "Aura edits", era: "2020s", yr: 2022, y: 380, kind: "output",
@@ -264,7 +266,8 @@ window.EDIT = {
       ],
       move: "Chemistry. A glance, a hug at the net, a shared joke, cut together until the relationship becomes the story.",
       media: [
-        { type: "video",   src: "media/newjeans.mp4", caption: "Evolution on fandom editing" }
+        { type: "video",   src: "media/sincaraz.mp4", caption: "A heated rivalry that created one of the greatest Tennis matches of all time" },
+        { type: "video",   src: "media/mbappekpop.mp4", caption: "Mbappe oppa and Taeoyeon unnie hitting their aegyos" }
       ] },
 
     { id: "uma", name: "Umamusume edits", era: "2025", yr: 2025, y: 570, kind: "output",
@@ -275,7 +278,8 @@ window.EDIT = {
       ],
       move: "The juxtaposition. Real footage and fiction side by side, so the history hits harder than either alone.",
       media: [
-        { type: "video",   src: "media/umaedit.mp4", caption: "Truest real-fiction" }
+        { type: "video",   src: "media/umaedit.mp4", caption: "Tribute to the greats, in real life and fiction" },
+        { type: "video",   src: "media/digitan.mp4", caption: "The loveable pervert yuri lover's devotion to her beloved umamusumes" }
       ] }
 
   ],
