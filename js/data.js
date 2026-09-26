@@ -24,7 +24,7 @@ window.EDIT = {
       volume: 0.8,       // overall volume, 0 to 1
       bpm: 92,           // tempo of the built-in song (see js/audio.js to change the song)
       file: "",          // your own track instead of the built-in song, e.g. "audio/my-song.mp3"
-      hissIntro: 0.012,  // tape hiss on the title screen
+      hissIntro: 0.010,  // tape hiss on the title screen
       hissMap: 0.005     // tape hiss under the music on the map (lower = music more prominent)
     }
   },
@@ -87,7 +87,9 @@ window.EDIT = {
         "Almost every technique in a modern edit descends from these arguments. A stare becomes menacing because of what's cut next to it, and a montage builds pressure through accelerating rhythm. The lineage runs all the way to <i>Rocky IV</i>, a film about beating a Soviet boxer that runs on Soviet film theory."
       ],
       move: "Collision. Two images placed side by side create a third meaning that neither holds alone. Any edit that makes a stare look menacing because of what comes next is running on this idea.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "BAbzRjErywY", caption: "Earliest and one of the greatest sequence of cuts in film history" }
+      ] },
 
     { id: "found", name: "Found-footage film", era: "1958", yr: 1958, y: 740, kind: "fan",
       text: [
@@ -96,7 +98,9 @@ window.EDIT = {
         "Found footage established the premise of every fan edit: you don't need to own a camera or the footage to make something new. Borrowed images and a pop song, arranged with intent, become a new work. It's also where remix's legal gray zone begins, a tension that vidders, AMV makers and TikTok editors all inherit."
       ],
       move: "Recontextualizing. Borrowed images with a pop song on top, and the song tells you how to read them.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "prf7dsuKD7k", caption: "Bruce Conner's films paving the way of what's to come with MTV" }
+      ] },
 
     { id: "nflfilms", name: "NFL Films", era: "1962", yr: 1962, y: 300, kind: "industry",
       text: [
@@ -105,7 +109,9 @@ window.EDIT = {
         "NFL Films taught sport to see itself as mythology, and that is the emotional DNA of every hype video since. Slow motion at the peak moment, a swelling score, a voice telling you this matters: the aura edit is NFL Films compressed to thirty seconds, with phonk in place of the orchestra."
       ],
       move: "Slow motion, score and voice together. The ball hangs in the air while the music swells, and one play becomes a legend.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "Nh0wTYWOHoU", caption: "Ed Sabol's farewell" }
+      ] },
 
     { id: "vidding", name: "Fan vidding", era: "1975", yr: 1975, y: 880, kind: "fan",
       text: [
@@ -123,7 +129,9 @@ window.EDIT = {
         "MTV shaped both lineages on this map at once. It changed professional film and TV editing, and it handed fans a template: once vidders and AMV makers had VCRs, the music video was the obvious model for what to make."
       ],
       move: "Cutting on the beat. The rhythm of the song decides when the picture changes.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "T6uNI0SLMds", caption: "Arguable where many of these styles and format really began" }
+      ] },
 
     { id: "amv", name: "AMVs and MADs", era: "1980s", yr: 1983, y: 650, kind: "fan",
       text: [
@@ -132,7 +140,9 @@ window.EDIT = {
         "AMV culture turned sync into a craft: lip movements matched to lyrics, impacts landing on drums, camera pans following a melody, all sustained across an entire song. Those techniques were later absorbed into the general grammar of the edit, often without credit, while dedicated AMV communities carry on in otaku spaces."
       ],
       move: "Sync. Lip movements, impacts and camera moves matched to the music frame by frame, across a whole song.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "ForQCPqCbuE", caption: "One of the greatest movies of all time" }
+      ] },
 
     { id: "rocky", name: "Rocky IV", era: "1985", yr: 1985, y: 440, kind: "industry",
       text: [
@@ -141,7 +151,9 @@ window.EDIT = {
         "The training montage, which the series had refined since the original <i>Rocky</i> (1976), became a template for compressing effort into minutes of rising energy. It's a direct ancestor of the sports edit's build toward the drop. And fittingly for a film about beating a Soviet fighter, it runs on Soviet montage theory."
       ],
       move: "The recap montage. Old footage, a new song and a new emotion, compressing years of story into three minutes.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "F1gd_9noZMA", caption: "Critics might call it a glorified music video, but the impact speaks for itself" }
+      ] },
 
     { id: "wwe", name: "Wrestling promo packages", era: "1990s", yr: 1992, y: 300, kind: "industry",
       text: [
@@ -150,7 +162,9 @@ window.EDIT = {
         "Wrestling also gave sports culture its vocabulary. Heels and faces, cutting a promo, heel turns and kayfabe are now everyday language in NBA and football discourse. Sports edits borrowed the package's structure, and in Japan, women's wrestling fused with idol culture outright when the Crush Gals became pop stars in the 1980s."
       ],
       move: "The athlete's voice as dialogue. A spoken line lands on the drop, and the music answers it.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "pfh7S6nTbUw", caption: "The Rock and Stone Cold Steve Austin face-off" }
+      ] },
 
     { id: "mixtape", name: "Streetball mixtapes", era: "1998", yr: 1998, y: 780, kind: "fan",
       text: [
@@ -159,7 +173,9 @@ window.EDIT = {
         "Mixtapes brought hip-hop's sensibility to sports video: the beat sets the pace, swagger counts as much as skill, and a single move can be the whole highlight. That spirit runs straight into modern basketball edits and the aura aesthetic, where the celebration or the stare matters as much as the score."
       ],
       move: "Style over result. The move itself is the highlight, cut to the beat and replayed from every angle.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "LweNdi92DW0", caption: "Stylistic swagger" }
+      ] },
 
     { id: "platforms", name: "YouTube, Nico Nico, Tumblr", era: "2005", yr: 2006, y: 560, kind: "platform",
       text: [
@@ -168,7 +184,9 @@ window.EDIT = {
         "The same era brought copyright into sharp focus. Takedowns pushed some vidders back into private communities, while the Organization for Transformative Works, founded in 2007, fought for fan creators' legal rights. The platforms made remix mainstream and turned it into a legal battleground at the same time."
       ],
       move: "Collision at scale. Anyone could watch, copy and remix everyone else's techniques.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "cE13yvrTfjA", caption: "Otaku streams meld and meet" }
+      ] },
 
     { id: "vine", name: "Vine", era: "2013", yr: 2013, y: 720, kind: "platform",
       text: [
@@ -177,7 +195,9 @@ window.EDIT = {
         "Vine trained a generation of creators and viewers in micro-timing, and many of its stars moved on to YouTube and later TikTok. Its sense of rhythm, its loop logic and its catchphrase culture live on in short-form video, and Vine compilations became a nostalgia genre of their own."
       ],
       move: "The loop. Build something that rewards watching again the instant it ends.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "U4QXJHBcnYI", caption: "Ah hell naaaaw aaa~" }
+      ] },
 
     { id: "fancam", name: "Fancams", era: "2014", yr: 2014, y: 880, kind: "fan",
       text: [
@@ -186,7 +206,9 @@ window.EDIT = {
         "The fancam's core idea is focus: one person followed through a group performance, turning a stage into a portrait. That grammar, along with stan vocabulary like biases and ships, carried into sports when fans began making fancam-style edits of footballers, drivers and tennis players."
       ],
       move: "Focus. One person followed through a group performance turns a stage into a portrait.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "gs3RBRoTKYI", caption: "Unnie fangirling to the max" }
+      ] },
 
     { id: "videoessay", name: "Video essays", era: "2014", yr: 2015, y: 400, kind: "fan",
       text: [
@@ -195,7 +217,9 @@ window.EDIT = {
         "The form keeps evolving, from hour-long analyses on YouTube to short media-literacy commentary on TikTok and Reels that dissects a scene, an ad or a viral clip in under a minute. A video essay about edit culture itself, tracing the history on this map, is still waiting to be made."
       ],
       move: "Argument by juxtaposition. Two clips side by side prove a point faster than a paragraph.",
-      media: [] },
+      media: [
+        { type: "image",   src: "videoessays.jpeg", caption: "Proliferation of media literacy" }
+      ] },
 
     { id: "leagues", name: "Leagues open the footage", era: "2017", yr: 2017, y: 250, kind: "industry",
       text: [
@@ -204,7 +228,9 @@ window.EDIT = {
         "Leagues and teams now produce their own personality-driven content: behind-the-scenes clips, mic'd-up segments and social accounts that post like fans. The official and the fan-made feed each other, with leagues supplying raw material and fans cutting the stories the leagues can't tell."
       ],
       move: "Character over results. Leagues started cutting their own personality-driven stories, then let fans cut the rest.",
-      media: [] },
+      media: [
+        { type: "youtube", id: "9lP95Qo-I0", caption: "The GOAT greatest dunks" }
+      ] },
 
     { id: "tiktok", name: "TikTok and CapCut", era: "2018", yr: 2018, y: 560, kind: "platform",
       text: [
@@ -213,7 +239,9 @@ window.EDIT = {
         "The result is the edit as a universal form. Anime, athletes, idols, film characters and historical footage all get the same grammar, often built around the same trending sounds. Templates democratized the craft but also push creators toward sameness, the old tension between an art form and the feed that delivers it."
       ],
       move: "The template. One sound and one structure, endlessly refilled with new footage.",
-      media: [] },
+      media: [
+        { type: "video",   src: "tiktokcore.mp4", caption: "The ultimate short form video platform" }
+      ] },
 
     { id: "aura", name: "Aura edits", era: "2020s", yr: 2022, y: 380, kind: "output",
       text: [
@@ -222,7 +250,9 @@ window.EDIT = {
         "Their ancestors are NFL Films' mythmaking, wrestling's villain packages and streetball swagger. They feed GOAT debates and legacy arguments, making the case for a player's greatness visually, while NBA Twitter-style discourse makes it in words."
       ],
       move: "The pause before the drop. Everything slows, then the beat hits on the moment of total control.",
-      media: [] },
+      media: [
+        { type: "video",   src: "f1aura.mp4", caption: "Tje coolest and baddest mfs you've ever seen" }
+      ] },
 
     { id: "stan", name: "Stan edits", era: "2020s", yr: 2022, y: 760, kind: "output",
       text: [
@@ -231,7 +261,9 @@ window.EDIT = {
         "This mode has widened who feels welcome in sports fandom, drawing in many women and queer fans, and it inherits vidding's shipping tradition directly. It also raises a question vidders knew well: unlike K-pop idols, athletes never signed up to have their friendships narrated, and not all of them welcome it."
       ],
       move: "Chemistry. A glance, a hug at the net, a shared joke, cut together until the relationship becomes the story.",
-      media: [] },
+      media: [
+        { type: "video",   src: "newjeans.mp4", caption: "Truest real-fiction" }
+      ] },
 
     { id: "uma", name: "Umamusume edits", era: "2025", yr: 2025, y: 570, kind: "output",
       text: [
@@ -240,7 +272,9 @@ window.EDIT = {
         "This is where the lines on the map meet. It draws on the AMV lineage through anime, on sports mythmaking through real races, and on idol culture through its winning concerts. Its characters work in both edit registers, cute enough for stan edits and fearsome enough for aura edits, a blend of moe and aura."
       ],
       move: "The juxtaposition. Real footage and fiction side by side, so the history hits harder than either alone.",
-      media: [] }
+      media: [
+        { type: "video",   src: "umaedit.mp4", caption: "Truest real-fiction" }
+      ] }
 
   ],
 
