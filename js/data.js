@@ -264,7 +264,7 @@ window.EDIT = {
       ],
       move: "Chemistry. A glance, a hug at the net, a shared joke, cut together until the relationship becomes the story.",
       media: [
-        { type: "video",   src: "media/newjeans.mp4", caption: "Truest real-fiction" }
+        { type: "video",   src: "media/newjeans.mp4", caption: "Evolution on fandom editing" }
       ] },
 
     { id: "uma", name: "Umamusume edits", era: "2025", yr: 2025, y: 570, kind: "output",
